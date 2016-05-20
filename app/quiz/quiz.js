@@ -22,7 +22,12 @@
 					showCorrectGif(index);
 					vm.showCorrectBanner = true;
 					document.getElementById('successAudio').play();
-					$timeout(function(){vm.showCorrectBanner = false; displayQuestion.bind(vm, ++index)()},3000)
+					$timeout(function(){
+						vm.showCorrectBanner = false;
+						document.getElementById('correctAnswer').src = "";
+						document.getElementById('wrongAnswer').src = "";
+						displayQuestion.bind(vm, ++index)()
+					},3000)
 					
 				}
 				else{
