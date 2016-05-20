@@ -1,0 +1,15 @@
+{
+  "name": "AngularMaterialKitchenSink",
+  "version": "1.0.0",
+  "authors": [
+    "Vishal Thukral <vthukral@paypal.com>"
+  ],
+  "description": "bower init",
+  "dependencies": {
+    "angular": "*",
+    "angular-material": "*",
+    "angular-route": "*",
+    "angular-audio": "~1.7.2",
+    "audio5": "audio5js#*"
+  }
+}

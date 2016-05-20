@@ -1,0 +1,173 @@
+{
+  "Questions" : [
+    {
+      "statement" : "When did PayPal acquire Braintree?",
+      "options" : [
+        {
+          "value" : "2012",
+          "isCorrect" : false
+        },
+        {
+          "value" : "2013",
+          "isCorrect" : true
+        },
+        {
+          "value" : "2011",
+          "isCorrect" : false
+        },
+        {
+          "value" : "2010",
+          "isCorrect" : false
+        }
+      ]
+    },
+    {
+      "statement" : "When was PayPal India established?",
+      "options" : [
+        {
+          "value" : "2008",
+          "isCorrect" : false
+        },
+        {
+          "value" : "2006",
+          "isCorrect" : false
+        },
+        {
+          "value" : "2007",
+          "isCorrect" : true
+        },
+        {
+          "value" : "2009",
+          "isCorrect" : false
+        }
+      ]
+    },
+    {
+      "statement" : "What is Bangalore not known as?",
+      "options" : [
+        {
+          "value" : "IT capital of India",
+          "isCorrect" : false
+        },
+        {
+          "value" : "Capital of India",
+          "isCorrect" : true
+        },
+        {
+          "value" : "Pub Capital of India",
+          "isCorrect" : false
+        },
+        {
+          "value" : "Garden city of India",
+          "isCorrect" : false
+        }
+      ]
+    },
+    {
+      "statement" : "Who won the 2016 Super Bowl?",
+      "options" : [
+        {
+          "value" : "Colorado",
+          "isCorrect" : false
+        },
+        {
+          "value" : "Boston",
+          "isCorrect" : false
+        },
+        {
+          "value" : "California",
+          "isCorrect" : false
+        },
+        {
+          "value" : "Denver",
+          "isCorrect" : true
+        }
+      ]
+    },
+    {
+      "statement" : "Which one of these is the right command to print the 10th line of a file 'a' ?",
+      "options" : [
+        {
+          "value" : "tail -10 a|head -1",
+          "isCorrect" : false
+        },
+        {
+          "value" : "tail +10 a|head -2",
+          "isCorrect" : false
+        },
+        {
+          "value" : "sed –n ‘10p’ a",
+          "isCorrect" : true
+        },
+        {
+          "value" : "head 10 a",
+          "isCorrect" : false
+        }
+      ]
+    },
+    {
+      "statement" : "What is the name of Iron Man's interactive virtual assistant? ",
+      "options" : [
+        {
+          "value" : "Dummy",
+          "isCorrect" : false
+        },
+        {
+          "value" : "Robby",
+          "isCorrect" : false
+        },
+        {
+          "value" : "Jarvis",
+          "isCorrect" : true
+        },
+        {
+          "value" : "C3P",
+          "isCorrect" : false
+        }
+      ]
+    },
+    {
+      "statement" : "How many times has PayPal India made it to the GPTW rankings?",
+      "options" : [
+        {
+          "value" : "7",
+          "isCorrect" : true
+        },
+        {
+          "value" : "6",
+          "isCorrect" : false
+        },
+        {
+          "value" : "5",
+          "isCorrect" : false
+        },
+        {
+          "value" : "8",
+          "isCorrect" : false
+        }
+      ]
+    },
+    {
+      "statement" : "Which is the coolest development center in PayPal?",
+      "options" : [
+        {
+          "value" : "Singapore",
+          "isCorrect" : false
+        },
+        {
+          "value" : "San Jose",
+          "isCorrect" : false
+        },
+        {
+          "value" : "Bangalore",
+          "isCorrect" : true
+        },
+        {
+          "value" : "Chennai",
+          "isCorrect" : false
+        }
+      ]
+    }
+
+  ]
+}

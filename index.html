@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html ng-app="qa">
+<head>
+    <meta charset="utf-8">
+	<title>PayPal Quiz</title>
+	<link href="app/bower_components/angular-material/angular-material.min.css" rel="stylesheet">
+    <link href="app/app.css" rel="stylesheet">
+
+</head>
+<body layout="column">
+
+
+	<div ng-view>
+		<!-- Template Mounting Point -->
+	</div>
+
+    <script src="app/bower_components/angular/angular.min.js"></script>
+    <script src="app/bower_components/angular-route/angular-route.min.js"></script>
+    <script src="app/bower_components/angular-animate/angular-animate.min.js"></script>
+    <script src="app/bower_components/angular-aria/angular-aria.min.js"></script>
+    <script src="app/bower_components/angular-material/angular-material.min.js"></script>
+    <audio id="errorAudio" src="app/assets/eee.mp3" preload="auto"></audio>
+    <audio id="successAudio" src="app/assets/clap.mp3" preload="auto"></audio>
+    <!-- Bootstrap -->
+    <script src="app/app.module.js"></script>
+    
+
+    <!-- Intro -->
+    <script src="app/intro/intro.module.js"></script>
+    <script src="app/intro/config.route.js"></script>
+    <script src="app/intro/intro.js"></script> 
+
+    <!-- Quiz -->
+    <script src="app/quiz/quiz.module.js"></script>
+    <script src="app/quiz/config.route.js"></script>
+    <script src="app/quiz/quiz.service.js"></script>
+    <script src="app/quiz/quiz.js"></script>
+
+    <!-- Done -->
+    <script src="app/done/done.module.js"></script>
+    <script src="app/done/config.route.js"></script>
+    <script src="app/done/done.js"></script>
+
+
+    <!-- shared -->
+    <script src="app/shared/shared.module.js"></script>
+    <script src="app/shared/updateRoute.service.js"></script>
+
+
+</body>
+</html>
